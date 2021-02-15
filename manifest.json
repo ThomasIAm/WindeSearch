@@ -1,0 +1,20 @@
+{
+	"name": "WindeSearch",
+	"version": "1.0",
+	"description": "WindeSearch is search engine developed for Windesheim University of Applied Sciences. It searches through their databases and catalog simultaneously.",
+	"author": "Thomas van den Nieuwenhoff",
+	"browser_action": {
+		"default_popup": "popup.html",
+		"default_icon": {
+			"16": "images/icon-16.png",
+			"32": "images/icon-32.png",
+			"128": "images/icon-32.png"
+		}
+	},
+	"icons": {
+		"16": "images/icon-16.png",
+		"32": "images/icon-32.png",
+		"128": "images/icon-32.png"
+	},
+	"manifest_version": 2
+}
