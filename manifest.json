@@ -1,7 +1,7 @@
 {
 	"name": "WindeSearch",
 	"version": "1.0",
-	"description": "WindeSearch is search engine developed for Windesheim University of Applied Sciences. It searches through their databases and catalog simultaneously.",
+	"description": "This plugin provides a handy interface to search Windesheim's databases.",
 	"author": "Thomas van den Nieuwenhoff",
 	"browser_action": {
 		"default_popup": "popup.html",
