@@ -1,0 +1,6 @@
+{
+	"appDesc": {
+		"message": "This plugin provides a handy interface to search Windesheim's databases.",
+		"description": "The description of the application, displayed in the web store."
+	}
+}
