@@ -11,7 +11,7 @@ WindeSearch is a search engine developed for Windesheim University of Applied Sc
 - [ ] add autocomplete
 - [ ] add localization for English and German in popup
 - [x] add omnibox search
-- [ ] add search from context menu
+- [x] add search from context menu
 - [ ] add Firefox support
 
 ## Features
@@ -25,3 +25,9 @@ As featured in the screenshot above, the extensions features a popup search fiel
 ![](/screenshots/features/omnibox.png)
 
 This feature allows you to quickly search with WindeSearch. Just type 'win' into your omnibox, press tab, and type your search query.
+
+### Context Menu
+
+![](/screenshots/features/contextmenu.png)
+
+When you select something, the context menu will show an option to search with WindeSearch. Your selection will serve as search query.
