@@ -12,7 +12,7 @@ WindeSearch is a search engine developed for Windesheim University of Applied Sc
 
 [Edge Add-ons](#) (coming soon)
 
-[Firefox Browser Add-ons](#) (coming soon)
+[Firefox Browser Add-ons](https://addons.mozilla.org/nl/firefox/addon/windesearch/) (coming soon)
 
 ### Local install
 
