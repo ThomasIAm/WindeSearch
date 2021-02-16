@@ -6,6 +6,22 @@ WindeSearch is a search engine developed for Windesheim University of Applied Sc
 
 ![](/screenshots/google/main.jpg)
 
+## Download
+
+[Chrome Web Store](https://chrome.google.com/webstore/detail/mofamnoejjhjcmjikdbmddpmcnknhpik)
+
+[Edge Add-ons](#) (coming soon)
+
+[Firefox Browser Add-ons](#) (coming soon)
+
+### Local install
+
+Follow [this](https://github.com/ThomasIAm/WindeSearch/releases/latest) link to the latest release page where you can find a .crx file. Use your browser to install the extension from this file. Note that automatic updates are not supported with this method.
+
+### "Build" from source
+
+Download the source code from [here](https://github.com/ThomasIAm/WindeSearch/archive/main.zip) and use your browser to either pack the extension or load it unpacked. Note that automatic updates are not supported with this method.
+
 ## To Do
 
 - [ ] add autocomplete
