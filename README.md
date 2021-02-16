@@ -12,7 +12,7 @@ WindeSearch is a search engine developed for Windesheim University of Applied Sc
 - [ ] add localization for English and German in popup
 - [x] add omnibox search
 - [x] add search from context menu
-- [ ] add Firefox support
+- [x] add Firefox support
 
 ## Features
 

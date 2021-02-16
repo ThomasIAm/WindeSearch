@@ -1,5 +1,9 @@
 'use strict'
 
+chrome.omnibox.setDefaultSuggestion({
+	description: 'Zoek met WindeSearch'
+});
+
 chrome.omnibox.onInputEntered.addListener(
 	function (text) {
 		search(text);
