@@ -4,6 +4,7 @@
 	"description": "__MSG_appDesc__",
 	"default_locale": "nl",
 	"author": "Thomas van den Nieuwenhoff",
+	"permissions": ["contextMenus"],
 	"omnibox": {
 		"keyword": "win"
 	},
