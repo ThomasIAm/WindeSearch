@@ -6,7 +6,7 @@ chrome.omnibox.setDefaultSuggestion({
 
 chrome.omnibox.onInputEntered.addListener(
 	function (text) {
-		search(text);
+		searchCurrentTab(text);
 	});
 
 chrome.runtime.onInstalled.addListener(function () {
@@ -19,10 +19,17 @@ chrome.runtime.onInstalled.addListener(function () {
 
 chrome.contextMenus.onClicked.addListener(function (info, tab) {
 	if (info.menuItemId == "search") {
-		search(info.selectionText);
+		searchNewTab(info.selectionText);
 	}
 });
 
-function search(query) {
+function searchCurrentTab(query) {
+	chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
+		var tab = tabs[0];
+		chrome.tabs.update(tab.id, { url: 'https://windesheim.summon.serialssolutions.com/search?q=' + query });
+	});
+}
+
+function searchNewTab(query) {
 	chrome.tabs.create({ url: 'https://windesheim.summon.serialssolutions.com/search?q=' + query });
 }
