@@ -17,7 +17,7 @@ chrome.runtime.onInstalled.addListener(function () {
 	});
 });
 
-chrome.contextMenus.onClicked.addListener(function (info, tab) {
+chrome.contextMenus.onClicked.addListener(function (info) {
 	if (info.menuItemId == "search") {
 		searchNewTab(info.selectionText);
 	}
